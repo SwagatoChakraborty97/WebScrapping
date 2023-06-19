@@ -1,0 +1,23 @@
+What is Web Scraping
+
+• If a website does not allow data to be fetched using API, we can use web scrapping
+• Web Scrapping is extracting information from internet using scripts that simulates human web surfing
+• But Not every website allows checking
+• Remember not to spam website by sending many requests
+• Update code time to time as scraping relies on webpage structure and web page structure keeps on changing from time to time
+
+Library used for scraping
+• BeautifulSoup - Python Library
+• Selenium - 
+
+Process of Web Scraping
+• Find URL of website from where you wanna scrape data
+• Send HTTP response to URL so as to get HTML as response
+• Parse the HTML content
+• Find and extract data
+
+IMP Functions in BeautifulSoup
+• prettify()
+• find()
+• find_all()
+• get_text()
